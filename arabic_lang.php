@@ -3665,3 +3665,150 @@ $lang['google_2fa_code_valid'] = 'Successfuly verified the authentication';
 $lang['google_2fa_code_invalid'] = 'Invalid authentication code entered, try again.';
 $lang['google_2fa_scan_qr_guide'] = 'Scan the QR below with the Google Authenticator app on your mobile device, after that fill in the field below with the code generated in the app';
 $lang['google_2fa_manul_input_secret'] = 'Secret key for manual input';
+# Version 2.7.1
+$lang['templates']                                   = 'Templates';
+$lang['add_template']                                = 'Add Template';
+$lang['edit_template']                               = 'Edit Template';
+$lang['template_added']                              = 'Template added successfully';
+$lang['template_updated']                            = 'Template updated successfully';
+$lang['template_name']                               = 'Template Title';
+$lang['template_content']                            = 'Template Content';
+$lang['insert_template']                             = 'Insert';
+$lang['items_table_amounts_exclude_currency_symbol'] = 'Exclude currency symbol from items table Amount';
+
+$lang['multiplies_of']               = 'Multiplies of';
+$lang['round_off_task_timer_option'] = 'Round off task timer';
+$lang['task_timer_dont_round_off']   = 'Don\'t round off';
+$lang['task_timer_round_up']         = 'Round up';
+$lang['task_timer_round_down']       = 'Round down';
+$lang['task_timer_round_nearest']    = 'Round to nearest';
+$lang['calendar_task_reminder']      = 'Task Reminder';
+$lang['projects_chart']              = 'Projects Chart';
+$lang['overdue_by_days']             = 'OVERDUE BY %s DAYS';
+
+$lang['two_checkout_payment_processing'] = 'Payment is been processed,you will be notified if successful';
+$lang['two_checkout_payment_cancelled']  = 'Payment Cancelled';
+$lang['two_checkout_merchant_code']      = 'Merchant Code';
+$lang['two_checkout_secret_Key']         = 'Secret Code';
+$lang['two_gateway_webhook_notice']      = 'The IPN Endpoint for 2Checkout is ( %s )';
+$lang['something_went_wrong']            = 'Something went wrong. Try again';
+$lang['imap_folder']                     = 'Folder';
+$lang['retrieve_folders']                = 'Retrieve Folders';
+$lang['email_to_ticket_config']          = 'Email to ticket configuration';
+
+# Version 2.8.0
+$lang['enable_support_menu_badges']              = 'Enable support menu item badge';
+$lang['item_copy_success']                       = 'Item copied successfully';
+$lang['item_copy_fail']                          = 'Failed to copy item';
+$lang['attach_invoice_to_payment_receipt_email'] = 'Attach invoice PDF when sending payment receipt to email';
+
+$lang['estimate_request']                                  = 'Estimate request';
+$lang['estimate_requests']                                 = 'Estimate request';
+$lang['estimate_request_form']                             = 'Estimate request form';
+$lang['acs_estimate_request']                              = 'Estimate request';
+$lang['acs_estimate_request_forms']                        = 'Forms';
+$lang['estimate_request_forms']                            = 'Estimate Request Forms';
+$lang['estimate_request_notify_staff']                     = 'Staff Members to Notify';
+$lang['estimate_request_notify_when_submitted']            = 'Notify when estimate request submitted';
+$lang['estimate_request_assignee']                         = 'Responsible (Assignee)';
+$lang['estimate_request_notify_roles']                     = 'Roles to Notify';
+$lang['custom_field_estimate_request']                     = 'Estimate request';
+$lang['new_estimate_request_submitted_from_form']          = 'New Estimate Request submitted from Form - %s';
+$lang['acs_estimate_request_statuses_submenu']             = 'Statuses';
+$lang['estimate_request_dt_email']                         = 'Email';
+$lang['estimate_request_dt_assigned']                      = 'Assigned';
+$lang['estimate_request_dt_status']                        = 'Status';
+$lang['estimate_request_dt_datecreated']                   = 'Created';
+$lang['estimate_request_attachments']                      = 'Attachments';
+$lang['estimate_request_new_status']                       = 'New Status';
+$lang['estimate_request_status_table_name']                = 'Status Name';
+$lang['estimate_request_table_total']                      = 'Total Request: %s';
+$lang['estimate_request_statuses_not_found']               = 'No Estimate Request statuses found';
+$lang['estimate_request_status_add_edit_name']             = 'Status Name';
+$lang['estimate_request_status_color']                     = 'Color';
+$lang['estimate_request_status_add_edit_order']            = 'Status Order';
+$lang['estimate_request_status']                           = 'Status';
+$lang['estimate_request_date_added']                       = 'Date Created';
+$lang['estmate_request_tags_updated']                      = 'Tags Updated';
+$lang['not_estimate_request_activity_status_updated']      = '%s updated estimate request status from %s to %s';
+$lang['estimate_request_lowercase']                        = 'estimate request';
+$lang['estimate_request_form_email_field_is_required']     = 'Email field is required to be added on the form';
+$lang['estimate_request_form_email_field_set_to_required'] = 'Mark the email field as required';
+$lang['not_delete_estimate_request_default_status']        = 'Cannot delete core estimate request status';
+$lang['mark_estimate_request_as']                          = 'Mark as %s';
+$lang['estimate_request_updated']                          = 'Estimate Request Updated';
+$lang['convert_estimate_request']                          = 'Convert Estimate Request';
+$lang['estimate_request_client_firstname']                 = 'First Name';
+$lang['estimate_request_client_lastname']                  = 'Last Name';
+$lang['estimate_request_email']                            = 'Email';
+$lang['estimate_request_for_lead']                         = 'Lead';
+$lang['estimate_request_for_customer']                     = 'Customer';
+$lang['estimate_request_related']                          = 'Related to';
+$lang['estimate_request_client_created_success']           = 'Estimate Request Customer Created';
+$lang['estimate_request_assigned']                         = 'Staff Assigned';
+$lang['not_estimate_request_activity_assigned_updated']    = 'Estimate Request Assigned to %s';
+$lang['estimate_request_status_lowercase']                 = 'estimate request status';
+$lang['estimate_request_assigned_to_staff']                = 'Estimate Request has been assigned to you';
+
+$lang['activity_due_reminder_is_sent']   = '%s sent invoice becoming due reminder';
+$lang['invoice_due_notice_before']       = 'Send due reminder X days before due date';
+$lang['overdue_notices']                 = 'Overdue Notices';
+$lang['invoice_overdue_notices_info']    = 'Overdue notices are sent when the invoice becomes overdue.';
+$lang['due_reminders']                   = 'Due Reminders';
+$lang['due_reminders_for_invoices_info'] = 'Due reminders are sent to unpaid and partially paid invoices as reminder to the customer to pay the invoice before is due.';
+$lang['expenses_list_made_payment_by']   = 'Made Payment by %s';
+
+# Version 2.8.2
+$lang['hide_task_checklist_items_completed'] = 'Hide completed items';
+$lang['show_task_checklist_items_completed'] = 'Show completed items %s';
+$lang['task_checklist_assign']               = 'Assign staff';
+$lang['task_checklist_assigned']             = 'Assigned to %s';
+
+# Version 2.8.2
+$lang['custom_field_add_edit_default_value'] = 'Default Value';
+
+# Version 2.8.3
+$lang['projects_send_contact_notification']                   = 'Send contacts notifications';
+$lang['project_send_all_contacts_with_notifications_enabled'] = 'To all contacts with notifications for projects enabled';
+$lang['project_do_not_send_contacts_notifications']           = 'Do not send notifications';
+$lang['project_send_specific_contacts_with_notification']     = 'Specific contacts';
+$lang['project_contacts_to_notify']                           = 'Select contacts to notify';
+$lang['contract_signed_by']                                   = 'Signer Name';
+$lang['contract_signed_date']                                 = 'Signed Date';
+$lang['contract_signed_ip']                                   = 'IP Address';
+$lang['show_estimate_request_in_customers_area']              = 'Show Estimate request link in customers area?';
+$lang['customers_estimate_request_link_text']                 = 'Request Estimate';
+$lang['total_expenses_deleted']                               = 'Total Expenses Deleted: %s';
+$lang['estimate_convert_to_project']                          = 'Convert to Project';
+$lang['estimate_items_convert_to_tasks']                      = 'Items that will be converted to tasks';
+
+$lang['proposal_signed_by']                                   = 'Signer Name';
+$lang['proposal_signed_date']                                 = 'Signed Date';
+$lang['proposal_signed_ip']                                   = 'IP Address';
+$lang['hide_milestone_from_customer']                         = 'Hide from customer';
+$lang['hide_milestone_from_customer_help']                    = 'When you decide to hide milestone from the customer area, the whole milestone and its tasks will be hidden';
+$lang['automatically_stop_task_timer_after_hours']            = 'Automaticaly stop task timers after (hours)';
+
+# Version 2.9.0
+$lang['home_payment_records']                                 = 'Payment Records';
+$lang['weekly']                                               = 'Weekly';
+$lang['monthly']                                              = 'Monthly';
+$lang['failed_to_update_timesheet']                           = 'Timesheet was not updated';
+$lang['permission_create_timesheets']                         = 'Create Timesheets';
+$lang['permission_edit_timesheets']                           = 'Edit Timesheets (Global)';
+$lang['permission_edit_own_timesheets']                       = 'Edit Own Timesheets';
+$lang['permission_delete_timesheets']                         = 'Delete Timesheets (Global)';
+$lang['permission_delete_own_timesheets']                     = 'Delete own Timesheets';
+$lang['permission_edit_milestones']                           = 'Edit Milestones';
+$lang['permission_delete_milestones']                         = 'Delete Milestonea';
+$lang['add_timesheet'] 										  = 'Add timesheet';
+$lang['submit_button_bg_color']                               = 'Submit button background color';
+$lang['submit_button_text_color']                             = 'Submit button background text';
+$lang['automatically_assign_ticket_to_first_staff_responding'] = 'Automatically assign the ticket to the first staff that post a reply?';
+
+# Version 2.9.1
+$lang['contract_signed_not_all_fields_editable'] = 'This contract is signed, hence not all fields can be edited until the signature is removed.';
+$lang['form_submit_success_action']              = 'What should happen after a visitor submits this form';
+$lang['form_submit_success_display_thank_you']   = 'Display thank you messsage';
+$lang['form_submit_success_redirect_to_website'] = 'Redirect to another website';
+$lang['form_submit_website_url']                 = 'Website URL';
