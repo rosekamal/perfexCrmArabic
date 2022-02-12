@@ -3532,7 +3532,7 @@ $lang['ticket_set_reminder_title'] = 'Set Ticket Reminder';
 $lang['calendar_ticket_reminder'] = 'Ticket Reminders';
 $lang['email_verification_required'] = 'Email Verification Required';
 $lang['email_verification_required_message'] = 'In order to access all the available features in the portal, first you must verify your email.';
-$lang['email_verification_required_message_mail'] = 'We have sent you an email with verification instructions, if you haven\'t received the email please check the spam folder or click <a href="%s">here</a> to resend the verification mail.';
+$lang['email_verification_required_message_mail'] = 'We have sent you an email with verification instructions, if you haven\'t received the email please check the spam folder or click %s here to resend the verification mail.';
 $lang['email_already_verified'] = 'Your email is already verified';
 $lang['invalid_verification_key'] = 'Invalid verification key';
 $lang['verification_key_expired'] = 'Verification Key Expired';
