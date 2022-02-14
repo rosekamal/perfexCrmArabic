@@ -391,7 +391,7 @@ $lang['settings_email_signature'] = 'Email Signature';
 $lang['settings_general_company_logo'] = 'Company Logo';
 $lang['settings_general_company_logo_tooltip'] = 'Recommended dimensions: 150 x 34px';
 $lang['settings_general_company_remove_logo_tooltip'] = 'Remove company logo';
-$lang['settings_general_company_name'] = 'Company Name';
+$lang['settings_general_company_name'] = 'اسم الشركة';
 $lang['settings_general_company_main_domain'] = 'Company Main Domain';
 $lang['settings_general_use_knowledgebase'] = 'Use Knowledge Base';
 $lang['settings_general_use_knowledgebase_tooltip'] = 'If you allow this options knowledge base will be shown also on clients side';
@@ -586,7 +586,7 @@ $lang['ticket_single_insert_predefined_reply'] = 'Insert predefined reply';
 $lang['ticket_single_insert_knowledge_base_link'] = 'Insert knowledge base link';
 $lang['ticket_single_attachments'] = 'Attachments';
 $lang['ticket_single_add_response'] = 'Add Response';
-$lang['ticket_single_note_heading'] = 'Note';
+$lang['ticket_single_note_heading'] = 'مذكرة';
 $lang['ticket_single_add_note'] = 'Add Note';
 $lang['ticket_settings_none_assigned'] = 'None';
 $lang['ticket_status_changed_successfully'] = 'Ticket Status Changed';
@@ -605,7 +605,7 @@ $lang['staff_profile_updated'] = 'Your Profile has Been Updated';
 $lang['staff_old_password_incorrect'] = 'Your old password is incorrect';
 $lang['staff_password_changed'] = 'Your password has been changed';
 $lang['staff_problem_changing_password'] = 'Problem changing your password';
-$lang['staff_profile_string'] = 'Profile';
+$lang['staff_profile_string'] = 'الملف الشخصي';
 $lang['staff_cant_remove_main_admin'] = 'Cant remove main administrator';
 $lang['staff_cant_remove_yourself_from_admin'] = 'You cant remove yourself the administrator role';
 $lang['staff_dt_name'] = 'الأسم بالكامل';
@@ -628,7 +628,7 @@ $lang['staff_add_edit_password_note'] = 'ملاحظة: إذا قمت بتعبئ�
 $lang['staff_add_edit_password_last_changed'] = 'Password last changed';
 $lang['staff_add_edit_notes'] = 'ملحوظات';
 $lang['staff_add_edit_note_description'] = 'Note description';
-$lang['staff_notes_table_description_heading'] = 'Note';
+$lang['staff_notes_table_description_heading'] = 'مذكرة';
 $lang['staff_notes_table_addedfrom_heading'] = 'Added From';
 $lang['staff_notes_table_dateadded_heading'] = 'Date Added';
 $lang['staff_admin_profile'] = 'This is admin profile';
@@ -642,12 +642,12 @@ $lang['staff_edit_profile_change_new_password'] = 'New password';
 $lang['staff_edit_profile_change_repeat_new_password'] = 'Repeat new password';
 
 # Staff Tasks
-$lang['new_task'] = 'New Task';
-$lang['tasks'] = 'Tasks';
-$lang['task'] = 'Task';
-$lang['task_lowercase'] = 'task';
-$lang['comment_string'] = 'Comment';
-$lang['task_marked_as_complete'] = 'Task marked as complete';
+$lang['new_task'] = 'مهمة جديدة';
+$lang['tasks'] = 'المهام';
+$lang['task'] = 'المهام';
+$lang['task_lowercase'] = 'المهمة';
+$lang['comment_string'] = 'تعليق';
+$lang['task_marked_as_complete'] = 'تم وضع علامة على المهمة على أنها مكتملة';
 $lang['task_follower_removed'] = 'Task follower removed successfully';
 $lang['task_assignee_removed'] = 'Task assignee removed successfully';
 $lang['task_no_assignees'] = 'No assignees for this task';
@@ -730,17 +730,16 @@ $lang['utility_calendar_event_deleted_successfully'] = 'Event deleted';
 $lang['utility_calendar_new_event_placeholder'] = 'Event title';
 
 # Navigation
-$lang['nav_notifications'] = 'Notifications';
-$lang['nav_my_profile'] = 'My Profile';
-$lang['nav_edit_profile'] = 'Edit Profile';
-$lang['nav_logout'] = 'Logout';
-$lang['nav_no_notifications'] = 'No notifications found';
-$lang['nav_view_all_notifications'] = 'View all notifications';
-$lang['nav_notifications_tooltip'] = 'View Notifications';
+$lang['nav_notifications'] = 'الإشعارات';
+$lang['nav_my_profile'] = 'ملفي الشخصي';
+$lang['nav_edit_profile'] = 'تعديل الملف الشخصي';
+$lang['nav_logout'] = 'تسجيل خروج';
+$lang['nav_no_notifications'] = 'لا توجد اي إشعارات';
+$lang['nav_view_all_notifications'] = 'عرض جميع الإشعارات';
+$lang['nav_notifications_tooltip'] = 'عرض الإشعارات';
 
 # Footer
-$lang['clients_copyright'] = 'Copyright %s';
-
+$lang['clients_copyright'] = 'جميع الحقوق محفوظة %s';
 # Contracts
 $lang['clients_contracts'] = 'Contracts';
 $lang['clients_contracts_dt_subject'] = 'Subject';
@@ -754,14 +753,14 @@ $lang['clients_home_currency_select_tooltip'] = 'You need to select currency bec
 # Invoices
 $lang['clients_invoice_html_btn_download'] = 'تحميل';
 $lang['clients_my_invoices'] = 'Invoices';
-$lang['clients_invoice_dt_number'] = 'Invoice #';
-$lang['clients_invoice_dt_date'] = 'Date';
-$lang['clients_invoice_dt_duedate'] = 'Due Date';
-$lang['clients_invoice_dt_amount'] = 'Amount';
-$lang['clients_invoice_dt_status'] = 'Status';
+$lang['clients_invoice_dt_number'] = 'رقم الفاتورة #';
+$lang['clients_invoice_dt_date'] = 'التاريخ';
+$lang['clients_invoice_dt_duedate'] = 'تاريخ الإستحقاق';
+$lang['clients_invoice_dt_amount'] = 'القيمة';
+$lang['clients_invoice_dt_status'] = 'الحالة';
 
 # Profile
-$lang['clients_profile_heading'] = 'Profile';
+$lang['clients_profile_heading'] = 'الملف الشخصي';
 
 # Used for edit profile and register START
 $lang['clients_firstname'] = 'First Name';
@@ -821,39 +820,39 @@ $lang['clients_ticket_single_add_reply_btn'] = 'Add Reply';
 $lang['clients_ticket_single_add_reply_heading'] = 'Add reply to this ticket';
 
 # Login
-$lang['clients_login_heading_no_register'] = 'Please login';
-$lang['clients_login_heading_register'] = 'Please login or register';
-$lang['clients_login_email'] = 'Email Address';
-$lang['clients_login_password'] = 'Password';
-$lang['clients_login_remember'] = 'Remember me';
-$lang['clients_login_login_string'] = 'Login';
+$lang['clients_login_heading_no_register'] = 'يرجى تسجيل الدخول';
+$lang['clients_login_heading_register'] = 'يرجى التسجيل او تسجيل الدخول';
+$lang['clients_login_email'] = 'البريد الالكتروني';
+$lang['clients_login_password'] = 'كلمة المرور';
+$lang['clients_login_remember'] = 'تذكرني';
+$lang['clients_login_login_string'] = 'تسجيل دخول';
 
 # Register
-$lang['clients_register_string'] = 'Register';
-$lang['clients_register_heading'] = 'Register';
+$lang['clients_register_string'] = 'تسجيل';
+$lang['clients_register_heading'] = 'تسجيل';
 
 # Navigation
-$lang['clients_nav_login'] = 'Login';
-$lang['clients_nav_register'] = 'Register';
-$lang['clients_nav_invoices'] = 'Invoices';
-$lang['clients_nav_contracts'] = 'Contracts';
-$lang['clients_nav_kb'] = 'Knowledge Base';
-$lang['clients_nav_profile'] = 'Profile';
-$lang['clients_nav_logout'] = 'Logout';
+$lang['clients_nav_login'] = 'تسجيل دخول';
+$lang['clients_nav_register'] = 'التسجيل';
+$lang['clients_nav_invoices'] = 'الفواتير';
+$lang['clients_nav_contracts'] = 'العقودات';
+$lang['clients_nav_kb'] = 'قاعدة المعرفة';
+$lang['clients_nav_profile'] = 'الملف الشخصي';
+$lang['clients_nav_logout'] = 'تسجيل خروج';
 
 # Version 1.0.1
-$lang['payment_receipt'] = 'Payment Receipt';
-$lang['payment_for_string'] = 'Payment For';
-$lang['payment_date'] = 'Payment Date:';
-$lang['payment_view_mode'] = 'Payment Mode:';
-$lang['payment_total_amount'] = 'Total Amount';
-$lang['payment_table_invoice_number'] = 'Invoice Number';
-$lang['payment_table_invoice_date'] = 'Invoice Date';
-$lang['payment_table_invoice_amount_total'] = 'Invoice Amount';
-$lang['payment_table_payment_amount_total'] = 'Payment Amount';
-$lang['payments_table_transaction_id'] = 'Transaction ID: %s';
+$lang['payment_receipt'] = 'إيصال دفع';
+$lang['payment_for_string'] = 'دفع إلى';
+$lang['payment_date'] = 'تاريخ الدفع:';
+$lang['payment_view_mode'] = 'طريقة الدفع:';
+$lang['payment_total_amount'] = 'الإجمالي';
+$lang['payment_table_invoice_number'] = 'رقم الفاتورة';
+$lang['payment_table_invoice_date'] = 'تاريخ الفاتورة';
+$lang['payment_table_invoice_amount_total'] = 'قيمة الفاتورة';
+$lang['payment_table_payment_amount_total'] = 'قيمة الدفعية';
+$lang['payments_table_transaction_id'] = 'رقم العملية: %s';
 $lang['payment_getaway_token_not_found'] = 'Token Not Found';
-$lang['online_payment_recorded_success'] = 'Payment recorded successfully';
+$lang['online_payment_recorded_success'] = 'تم تسجيل الدفعية بنجاح';
 $lang['online_payment_recorded_success_fail_database'] = 'Payment is successful but failed to insert payment to database, contact administrator';
 
 # Leads
@@ -970,11 +969,11 @@ $lang['client_zip_payment_modes'] = 'Payment made by';
 $lang['client_zip_no_data_found'] = 'No %s found';
 
 # Payments
-$lang['payment_mode'] = 'Payment Mode';
-$lang['payment_view_heading'] = 'Payment';
+$lang['payment_mode'] = 'طريقة الدفع';
+$lang['payment_view_heading'] = 'إيصال دفع';
 
 # Settings
-$lang['settings_allow_payment_amount_to_be_modified'] = 'Allow customer to modify the amount to pay (for online payments)';
+$lang['settings_allow_payment_amount_to_be_modified'] = 'السماح للعميل بتعديل المبلغ الذي يجب دفعه (للمدفوعات عبر الإنترنت)';
 
 $lang['settings_delete_only_on_last_invoice'] = 'Delete invoice allowed only on last invoice';
 $lang['settings_sales_estimate_prefix'] = 'Estimate Number Prefix';
@@ -1091,7 +1090,7 @@ $lang['estimate_total'] = 'الإجمالي';
 $lang['estimate_to'] = 'إلى';
 $lang['estimate_data_date'] = 'التاريخ';
 $lang['estimate_data_expiry_date'] = 'تاريخ الإنتهاء';
-$lang['estimate_note'] = 'Note:';
+$lang['estimate_note'] = 'مذكرة:';
 $lang['estimate_status_draft'] = 'مسودة';
 $lang['estimate_status_sent'] = 'مرسل';
 $lang['estimate_status_declined'] = 'مرفوض';
@@ -1320,7 +1319,7 @@ $lang['custom_field_leads'] = 'Leads';
 $lang['custom_field_customers'] = 'Customers';
 $lang['custom_field_staff'] = 'Staff';
 $lang['custom_field_contracts'] = 'Contracts';
-$lang['custom_field_tasks'] = 'Tasks';
+$lang['custom_field_tasks'] = 'المهام';
 $lang['custom_field_expenses'] = 'Expenses';
 $lang['custom_field_invoice'] = 'Invoice';
 $lang['custom_field_estimate'] = 'تقدير سعر';
@@ -1854,18 +1853,18 @@ $lang['estimate_activity_created'] = 'Created the estimate';
 $lang['invoice_estimate_activity_removed_item'] = 'removed item <b>%s</b>';
 $lang['estimate_activity_number_changed'] = 'Estimate number changed from %s to %s';
 $lang['invoice_activity_number_changed'] = 'Invoice number changed from %s to %s';
-$lang['invoice_estimate_activity_updated_item_short_description'] = 'updated item short description from %s to %s';
+$lang['invoice_estimate_activity_updated_item_short_description'] = 'تحديث الوصف من %s إلى %s';
 $lang['invoice_estimate_activity_updated_item_long_description'] = 'updated item long description from <b>%s</b> to <b>%s</b>';
 $lang['invoice_estimate_activity_updated_item_rate'] = 'updated item rate from %s to %s';
-$lang['invoice_estimate_activity_updated_qty_item'] = 'updated quantity on item <b>%s</b> from %s to %s';
-$lang['invoice_estimate_activity_added_item'] = 'added new item <b>%s</b>';
+$lang['invoice_estimate_activity_updated_qty_item'] = 'تحديث عدد العنصر <b>%s</b> من %s إلى %s';
+$lang['invoice_estimate_activity_added_item'] = 'تمت إضافة عنصر <b>%s</b>';
 $lang['invoice_estimate_activity_sent_to_client'] = 'sent estimate to client';
 $lang['estimate_activity_client_accepted_and_converted'] = 'Customer accepted this estimate. Estimate is converted to invoice with number %s';
 $lang['estimate_activity_client_accepted'] = 'Customer accepted this estimate';
 $lang['estimate_activity_client_declined'] = 'Client declined this estimate';
 $lang['estimate_activity_marked'] = 'marked estimate as %s';
-$lang['invoice_activity_status_updated'] = 'Invoice status updated from %s to %s';
-$lang['invoice_activity_created'] = 'created the invoice';
+$lang['invoice_activity_status_updated'] = 'تم تحديث حالة الفاتورة من %s إلى %s';
+$lang['invoice_activity_created'] = 'إنشاء الفاتورة';
 $lang['invoice_activity_from_expense'] = 'converted to invoice from expense';
 $lang['invoice_activity_recurring_created'] = '[Recurring] Invoice created by CRON';
 $lang['invoice_activity_recurring_from_expense_created'] = '[Invoice From Expense] Invoice created by CRON';
@@ -1873,7 +1872,7 @@ $lang['invoice_activity_sent_to_client_cron'] = 'Invoice sent to customer by CRO
 $lang['invoice_activity_sent_to_client'] = 'sent invoice to customer';
 $lang['invoice_activity_marked_as_sent'] = 'marked invoice as sent';
 $lang['invoice_activity_payment_deleted'] = 'deleted payment for the invoice. Payment #%s, total amount %s';
-$lang['invoice_activity_payment_made_by_client'] = 'Client made payment for the invoice from total <b>%s</b> - %s';
+$lang['invoice_activity_payment_made_by_client'] = 'قام العميل بعمل دفعية <b>%s</b> - %s';
 $lang['invoice_activity_payment_made_by_staff'] = 'recorded payment from total <b>%s</b> - %s';
 $lang['invoice_activity_added_attachment'] = 'Added attachment';
 
@@ -2293,10 +2292,10 @@ $lang['settings_pdf_table_heading_text_color'] = 'Items table heading text color
 $lang['settings_pdf_font_size'] = 'Default font size';
 $lang['proposal_status_draft'] = 'مسودة';
 $lang['custom_field_contacts'] = 'Contacts';
-$lang['company_primary_email'] = 'Primary Email';
-$lang['client_register_contact_info'] = 'Primary Contact Information';
+$lang['company_primary_email'] = 'البريد الأساسي';
+$lang['client_register_contact_info'] = 'معلومات الاتصال الأساسية';
 $lang['client_register_company_info'] = 'معلومات الشركة';
-$lang['contact_permissions_info'] = 'Make sure to set appropriate permissions for this contact';
+$lang['contact_permissions_info'] = 'تأكد من تعيين الأذونات المناسبة لجهة الاتصال هذه';
 $lang['default_leads_kanban_sort'] = 'Default leads kan ban sort';
 $lang['default_leads_kanban_sort_type'] = 'Sort';
 $lang['order_ascending'] = 'تصاعدي';
@@ -2426,7 +2425,7 @@ $lang['kb_article_slug'] = 'Slug';
 # Version 1.1.7
 $lang['email_template_ticket_warning'] = 'If ticket is imported with email piping and the contact does not exists in the CRM the fields won\'t be replaced.';
 $lang['auto_stop_tasks_timers_on_new_timer'] = 'Stop all other started timers when starting new timer';
-$lang['notification_when_customer_pay_invoice'] = 'Receive notification when customer pay invoice (built-in)';
+$lang['notification_when_customer_pay_invoice'] = 'تلقي إشعار عندما يدفع العميل فاتورة (مضمنة)';
 $lang['not_invoice_payment_recorded'] = 'New invoice payment - %s';
 $lang['email_template_contact_warning'] = 'If contact is not logged while making action the contact merge fields won\'t be replaced.';
 $lang['change_role_permission_warning'] = 'Changing role permissions won\'t affected current staff members permissions that are using this role.';
@@ -2694,7 +2693,7 @@ $lang['settings_paymentmethod_mollie_api_key'] = 'API Key';
 $lang['settings_paymentmethod_authorize_api_transaction_key'] = 'API Transaction ID';
 $lang['settings_paymentmethod_authorize_secret_key'] = 'Secret Key';
 $lang['leads_report_converted_notice'] = 'Only leads that belongs in the default Customer status will be taken as converted leads, if the leads belongs to the default status client and its not converted to customer will be still counted as converted lead';
-$lang['payment_method'] = 'Payment Method';
+$lang['payment_method'] = 'طرق الدفع';
 $lang['payment_method_info'] = 'Some payment gateways support different/multiple payment methods like Credit Card, PayPal, Bank.';
 
 # Version 1.2.7
@@ -2833,8 +2832,8 @@ $lang['show_setup_menu_item_only_on_hover'] = 'Show setup menu item only when ho
 $lang['internal_article'] = 'Internal Article';
 $lang['expenses_created_from_this_recurring_expense'] = 'Created expenses from this recurring expense';
 $lang['convert_to_task'] = 'Convert To Task';
-$lang['next_invoice_date'] = 'Next Invoice Date: %s';
-$lang['next_expense_date'] = 'Next Expense Date: %s';
+$lang['next_invoice_date'] = 'تاريخ الفاتورة القادمة : %s';
+$lang['next_expense_date'] = 'تاريخ المنصرف القادم : ';
 $lang['invoice_recurring_from'] = 'This invoice is created from recurring invoice with number: %s';
 $lang['expense_recurring_from'] = 'This expense is created from the following recurring expense: %s';
 $lang['child_invoices'] = 'Child Invoices';
@@ -3376,9 +3375,9 @@ $lang['contract_files'] = 'Contract Files';
 $lang['date_signed'] = 'Date Signed';
 $lang['clear_signature'] = 'Clear Signature';
 $lang['recurring_has_ended'] = 'This recurring %s has ended.';
-$lang['cycles_remaining'] = 'Cycles Remaining';
-$lang['cycles_infinity'] = 'Infinity';
-$lang['recurring_total_cycles'] = 'Total Cycles';
+$lang['cycles_remaining'] = 'الدورات المتبقية';
+$lang['cycles_infinity'] = 'للأبد';
+$lang['recurring_total_cycles'] = 'إجمالي الدورات';
 $lang['cycles_passed'] = 'Passed %s';
 $lang['api_key_not_set_error_message'] = 'API key not configured, click on the following link to configure API key: %s';
 $lang['subscription'] = 'Subscription';
@@ -3504,8 +3503,8 @@ $lang['contract_add_note'] = 'Add Note';
 # Version 2.1.1
 $lang['frequency'] = 'Frequency';
 $lang['frequency_every'] = 'Every %s';
-$lang['last_invoice_date'] = 'Last Invoice Date';
-$lang['next_invoice_date_list'] = 'Next Invoice Date';
+$lang['last_invoice_date'] = 'تاريخ اخر فاتورة';
+$lang['next_invoice_date_list'] = 'تاريخ الفاتورة القادمة';
 $lang['enter_new_card'] = 'Enter New Card';
 
 # Version 2.2.0
